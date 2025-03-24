@@ -47,16 +47,5 @@ Setelah selesai, keluar dari virtual environment dengan:
 ``
 deactivate
 ``
-
-*Struktur Folder*
-``
-Penghapusan-Background-Gambar/
-│── .venv/              # Virtual environment
-│── app.py              # File utama aplikasi Flask
-│── requirements.txt     # Dependensi Python
-│── static/             # Folder untuk gambar
-│── templates/          # HTML Template (jika ada antarmuka)
-``
-
 *Lisensi*
 Proyek ini bersifat open-source dan bebas digunakan.
