@@ -31,6 +31,11 @@ Jika file `requirements.txt` belum ada, instal secara manual:
 pip install flask rembg opencv-python
 ``
 
+
+![Screenshot 2025-03-16 112627](https://github.com/user-attachments/assets/c144407d-ec08-4b14-a9ef-c32bc7fdd088)
+
+
+
 *3. Menjalankan `app.py`*
 Pastikan virtual environment aktif, lalu jalankan aplikasi Flask dengan:
 ``
@@ -49,8 +54,3 @@ deactivate
 ``
 *Lisensi*
 Proyek ini bersifat open-source dan bebas digunakan.
-
-
-
-![Screenshot 2025-03-16 112627](https://github.com/user-attachments/assets/c144407d-ec08-4b14-a9ef-c32bc7fdd088)
-
