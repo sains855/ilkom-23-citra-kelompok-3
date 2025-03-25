@@ -49,5 +49,8 @@ deactivate
 ``
 *Lisensi*
 Proyek ini bersifat open-source dan bebas digunakan.
+
+
+
 ![Screenshot 2025-03-16 112627](https://github.com/user-attachments/assets/c144407d-ec08-4b14-a9ef-c32bc7fdd088)
 
