@@ -47,6 +47,34 @@ python app.py
 ``
 Aplikasi akan berjalan di *http://127.0.0.1:5000/* secara default.
 
+### *Proses Menghapus Background Gambar dengan Rembg (Remove Background)* 
+
+Alur kerja untuk menghapus background gambar menggunakan **rembg** dan model **U2Net**:  
+
+*a. Instalasi Rembg*
+Sebelum digunakan, pastikan *rembg* sudah terinstal.  
+Jalankan perintah berikut di terminal:  
+``
+pip install rembg
+``
+*b. Unduh Model U2Net* 
+- Ketika pertama kali menjalankan *rembg*, sistem akan mengunduh model *U2Net* (seperti yang terlihat di terminal pada gambar yang kamu berikan).  
+- Model ini digunakan untuk mendeteksi dan menghapus background gambar.
+
+*c. Menghapus Background Gambar* 
+Setelah model terunduh, gunakan perintah berikut untuk menghapus background gambar:  
+``
+rembg i input.jpg output.png
+``
+- *`input.jpg`* → Gambar asli yang ingin dihapus background-nya.  
+- *`output.png`* → Hasil gambar dengan background transparan.
+
+*d. Hasil Akhir*  
+- Gambar output akan memiliki *background transparan*.  
+- Format output biasanya dalam *PNG* karena mendukung transparansi.
+
+Rembg bekerja dengan *model deep learning U2Net* yang dapat mendeteksi objek utama dalam gambar dan menghapus latar belakangnya secara otomatis.
+
 *4. Menonaktifkan Virtual Environment*
 Setelah selesai, keluar dari virtual environment dengan:
 ``
