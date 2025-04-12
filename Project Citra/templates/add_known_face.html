@@ -25,3 +25,15 @@
       accept=".jpg,.jpeg,.png"
       required
     /><br /><br />
+
+    {# Tombol untuk menyimpan data wajah ke sistem #}
+    <button type="submit">Simpan Wajah</button>
+  </form>
+
+  {# Menampilkan pesan dari server (misalnya notifikasi sukses atau error) jika ada #}
+  {% if message %}
+    <div class="message">{{ message }}</div>
+  {% endif %}
+
+{% endblock content %}
+
